@@ -1,7 +1,13 @@
 import React from 'react';
 
+import './landingPageStyle.css';
+
 const LandingPage = () => {
-  return <div>LandingPage</div>;
+  return (
+    <div className='outer-div'>
+      <div className='landing-cnt'></div>
+    </div>
+  );
 };
 
 export default LandingPage;
