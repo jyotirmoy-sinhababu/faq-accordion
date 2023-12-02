@@ -1,0 +1,19 @@
+.card-outer-div {
+  width: 480px;
+  height: 500px;
+  border-radius: 16px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.card-cnt {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.card-imghead-cnt {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  padding: 6%;
+}
