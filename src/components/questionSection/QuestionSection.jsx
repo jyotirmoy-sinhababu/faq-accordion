@@ -1,6 +1,7 @@
 import React from 'react';
 
 const QuestionSection = ({ item }) => {
+  console.log(item);
   return (
     <div>
       <div>
