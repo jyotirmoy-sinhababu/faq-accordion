@@ -4,10 +4,12 @@ import FaqCard from '../../components/faq-card/FaqCard';
 
 const LandingPage = () => {
   return (
-    <div className='flex justify-center '>
+    <div className=''>
       {' '}
-      <div className=''>
-        <FaqCard />
+      <div className='pt-[5%]'>
+        <div className='flex justify-center '>
+          <FaqCard />
+        </div>
       </div>
     </div>
   );

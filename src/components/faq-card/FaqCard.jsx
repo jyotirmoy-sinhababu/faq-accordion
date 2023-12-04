@@ -9,21 +9,19 @@ const FaqCard = () => {
   console.log(data);
 
   return (
-    <div className=''>
-      <div className=''>
-        <div className=''>
-          <img className='' src={star} alt='star icon' />
-          <p className=''>FAQs</p>
-        </div>
-        <div>
-          {data?.map((item) => {
-            return (
-              <div key={item.id}>
-                <QuestionSection item={item} />
-              </div>
-            );
-          })}
-        </div>
+    <div className='flex flex-col w-[580px] h-[600px] border p-[3%] gap-[7%]'>
+      <div className='flex gap-7 items-center'>
+        <img className='' src={star} alt='star icon' />
+        <p className=' text-5xl'>FAQs</p>
+      </div>
+      <div>
+        {data?.map((item) => {
+          return (
+            <div key={item.id}>
+              <QuestionSection item={item} />
+            </div>
+          );
+        })}
       </div>
     </div>
   );
